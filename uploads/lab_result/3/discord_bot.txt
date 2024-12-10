@@ -1,0 +1,12 @@
+need step by step flow of integration document - using avatouch recording to release the document
+setup slack channel
+candy bot - can be integrate Avatouch ad candy bot?
+Need to integrate in 5 servers
+---------------------------------------------------------------------------------------------------
+Ranking - daily, monthly, weekly
+
+
+How to configure the env id from root 
+how to link  discord bot  in multiple server  
+------------------------------------------------------------------------------------------------
+data.content not updating
