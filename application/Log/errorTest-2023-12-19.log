@@ -1,0 +1,36 @@
+[2023-12-19T15:27:11] [ERROR] [ApiClient] : ApiException : [401] Error connecting to the API (https://apitest.cybersource.com/pts/v2/payments)
+[2023-12-19T15:27:11] [ERROR] [PaymentsApi] : ApiException : CyberSource\ApiException: [401] Error connecting to the API (https://apitest.cybersource.com/pts/v2/payments) in D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ApiClient.php:463
+Stack trace:
+#0 D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\Api\PaymentsApi.php(171): CyberSource\ApiClient->callApi('/pts/v2/payment...', 'POST', Array, '{"clientReferen...', Array, '\\CyberSource\\Mo...', '/pts/v2/payment...')
+#1 D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\Api\PaymentsApi.php(109): CyberSource\Api\PaymentsApi->createPaymentWithHttpInfo(Object(CyberSource\Model\CreatePaymentRequest))
+#2 D:\MyXAMPP\htdocs\dibest-spot\application\controllers\Booking_checkout.php(268): CyberSource\Api\PaymentsApi->createPayment(Object(CyberSource\Model\CreatePaymentRequest))
+#3 D:\MyXAMPP\htdocs\dibest-spot\system\core\CodeIgniter.php(532): Booking_checkout->SimpleAuthorizationInternet()
+#4 D:\MyXAMPP\htdocs\dibest-spot\index.php(315): require_once('D:\\MyXAMPP\\htdo...')
+#5 {main}
+[2023-12-19T15:27:29] [ERROR] [ApiClient] : ApiException : [401] Error connecting to the API (https://apitest.cybersource.com/pts/v2/payments)
+[2023-12-19T15:27:29] [ERROR] [PaymentsApi] : ApiException : CyberSource\ApiException: [401] Error connecting to the API (https://apitest.cybersource.com/pts/v2/payments) in D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ApiClient.php:463
+Stack trace:
+#0 D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\Api\PaymentsApi.php(171): CyberSource\ApiClient->callApi('/pts/v2/payment...', 'POST', Array, '{"clientReferen...', Array, '\\CyberSource\\Mo...', '/pts/v2/payment...')
+#1 D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\Api\PaymentsApi.php(109): CyberSource\Api\PaymentsApi->createPaymentWithHttpInfo(Object(CyberSource\Model\CreatePaymentRequest))
+#2 D:\MyXAMPP\htdocs\dibest-spot\application\controllers\Booking_checkout.php(268): CyberSource\Api\PaymentsApi->createPayment(Object(CyberSource\Model\CreatePaymentRequest))
+#3 D:\MyXAMPP\htdocs\dibest-spot\system\core\CodeIgniter.php(532): Booking_checkout->SimpleAuthorizationInternet()
+#4 D:\MyXAMPP\htdocs\dibest-spot\index.php(315): require_once('D:\\MyXAMPP\\htdo...')
+#5 {main}
+[2023-12-19T15:55:51] [ERROR] [ApiClient] : ApiException : [401] Error connecting to the API (https://apitest.cybersource.com/pts/v2/payments)
+[2023-12-19T15:55:51] [ERROR] [PaymentsApi] : ApiException : CyberSource\ApiException: [401] Error connecting to the API (https://apitest.cybersource.com/pts/v2/payments) in D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ApiClient.php:463
+Stack trace:
+#0 D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\Api\PaymentsApi.php(171): CyberSource\ApiClient->callApi('/pts/v2/payment...', 'POST', Array, '{"clientReferen...', Array, '\\CyberSource\\Mo...', '/pts/v2/payment...')
+#1 D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\Api\PaymentsApi.php(109): CyberSource\Api\PaymentsApi->createPaymentWithHttpInfo(Object(CyberSource\Model\CreatePaymentRequest))
+#2 D:\MyXAMPP\htdocs\dibest-spot\application\controllers\Booking_checkout.php(268): CyberSource\Api\PaymentsApi->createPayment(Object(CyberSource\Model\CreatePaymentRequest))
+#3 D:\MyXAMPP\htdocs\dibest-spot\system\core\CodeIgniter.php(532): Booking_checkout->SimpleAuthorizationInternet()
+#4 D:\MyXAMPP\htdocs\dibest-spot\index.php(315): require_once('D:\\MyXAMPP\\htdo...')
+#5 {main}
+[2023-12-19T15:57:38] [ERROR] [ApiClient] : ApiException : [401] Error connecting to the API (https://apitest.cybersource.com/pts/v2/payments)
+[2023-12-19T15:57:38] [ERROR] [PaymentsApi] : ApiException : CyberSource\ApiException: [401] Error connecting to the API (https://apitest.cybersource.com/pts/v2/payments) in D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ApiClient.php:463
+Stack trace:
+#0 D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\Api\PaymentsApi.php(171): CyberSource\ApiClient->callApi('/pts/v2/payment...', 'POST', Array, '{"clientReferen...', Array, '\\CyberSource\\Mo...', '/pts/v2/payment...')
+#1 D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\Api\PaymentsApi.php(109): CyberSource\Api\PaymentsApi->createPaymentWithHttpInfo(Object(CyberSource\Model\CreatePaymentRequest))
+#2 D:\MyXAMPP\htdocs\dibest-spot\application\controllers\Booking_checkout.php(268): CyberSource\Api\PaymentsApi->createPayment(Object(CyberSource\Model\CreatePaymentRequest))
+#3 D:\MyXAMPP\htdocs\dibest-spot\system\core\CodeIgniter.php(532): Booking_checkout->SimpleAuthorizationInternet()
+#4 D:\MyXAMPP\htdocs\dibest-spot\index.php(315): require_once('D:\\MyXAMPP\\htdo...')
+#5 {main}

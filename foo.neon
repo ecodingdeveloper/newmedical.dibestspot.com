@@ -1,0 +1,92 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Access to an undefined property Accounts\\:\\:\\$accounts\\.$#"
+			count: 27
+			path: application/controllers/Accounts.php
+
+		-
+			message: "#^Access to an undefined property Accounts\\:\\:\\$db\\.$#"
+			count: 14
+			path: application/controllers/Accounts.php
+
+		-
+			message: "#^Access to an undefined property Accounts\\:\\:\\$input\\.$#"
+			count: 9
+			path: application/controllers/Accounts.php
+
+		-
+			message: "#^Access to an undefined property Accounts\\:\\:\\$lang\\.$#"
+			count: 2
+			path: application/controllers/Accounts.php
+
+		-
+			message: "#^Access to an undefined property Accounts\\:\\:\\$language\\.$#"
+			count: 42
+			path: application/controllers/Accounts.php
+
+		-
+			message: "#^Access to an undefined property Accounts\\:\\:\\$load\\.$#"
+			count: 5
+			path: application/controllers/Accounts.php
+
+		-
+			message: "#^Access to an undefined property Accounts\\:\\:\\$session\\.$#"
+			count: 16
+			path: application/controllers/Accounts.php
+
+		-
+			message: "#^Access to an undefined property Accounts\\:\\:\\$timezone\\.$#"
+			count: 3
+			path: application/controllers/Accounts.php
+
+		-
+			message: "#^Accounts\\:\\:__construct\\(\\) calls parent\\:\\:__construct\\(\\) but Accounts does not extend any class\\.$#"
+			count: 1
+			path: application/controllers/Accounts.php
+
+		-
+			message: "#^Function base_url not found\\.$#"
+			count: 19
+			path: application/controllers/Accounts.php
+
+		-
+			message: "#^Function currency_code_sign not found\\.$#"
+			count: 6
+			path: application/controllers/Accounts.php
+
+		-
+			message: "#^Function default_currency_code not found\\.$#"
+			count: 6
+			path: application/controllers/Accounts.php
+
+		-
+			message: "#^Function get_doccure_currency not found\\.$#"
+			count: 4
+			path: application/controllers/Accounts.php
+
+		-
+			message: "#^Function get_user_currency not found\\.$#"
+			count: 7
+			path: application/controllers/Accounts.php
+
+		-
+			message: "#^Function redirect not found\\.$#"
+			count: 2
+			path: application/controllers/Accounts.php
+
+		-
+			message: "#^Function settings not found\\.$#"
+			count: 8
+			path: application/controllers/Accounts.php
+
+		-
+			message: "#^Variable \\$balance might not be defined\\.$#"
+			count: 1
+			path: application/controllers/Accounts.php
+
+		-
+			message: "#^Variable \\$text might not be defined\\.$#"
+			count: 1
+			path: application/controllers/Accounts.php
+

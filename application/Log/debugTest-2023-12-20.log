@@ -1,0 +1,136 @@
+[2023-12-20T05:28:16] [INFO] [MerchantConfiguration] : APPLICATION LOGGING START:
+
+[2023-12-20T05:28:16] [INFO] [MerchantConfiguration] : CONFIGURATION INFORMATION :
+authenticationType  = HTTP_SIGNATURE
+enableLogging  = 1
+debugLogFile  = D:\MyXAMPP\htdocs\dibest-spot\application\controllers\..\Log\debugTest.log
+errorLogFile  = D:\MyXAMPP\htdocs\dibest-spot\application\controllers\..\Log\errorTest.log
+RunEnvironment  = apitest.cybersource.com
+[2023-12-20T05:28:16] [INFO] [MerchantConfiguration] : APPLICATION LOGGING START:
+
+[2023-12-20T05:28:16] [INFO] [MerchantConfiguration] : CONFIGURATION INFORMATION :
+authenticationType  = HTTP_SIGNATURE
+enableLogging  = 1
+debugLogFile  = D:\MyXAMPP\htdocs\dibest-spot\application\controllers\..\Log\debugTest.log
+errorLogFile  = D:\MyXAMPP\htdocs\dibest-spot\application\controllers\..\Log\errorTest.log
+RunEnvironment  = apitest.cybersource.com
+[2023-12-20T05:28:16] [INFO] [PaymentsApi] : CALL TO METHOD createPayment STARTED
+[2023-12-20T05:28:16] [DEBUG] [PaymentsApi] : Resource : POST /pts/v2/payments
+[2023-12-20T05:28:16] [DEBUG] [PaymentsApi] : Body Parameter :
+{"clientReferenceInformation":{"code":"TC50171_3"},"processingInformation":{"capture":false},"paymentInformation":{"card":{"number":"xxxxx1111","expirationMonth":"xxxx","expirationYear":"xxxx"}},"orderInformation":{"amountDetails":{"totalAmount":"102.21","currency":"USD"},"billTo":{"firstName":"xxxxx","lastName":"xxxxx","address1":"1 Market St","locality":"san francisco","administrativeArea":"CA","postalCode":"94105","country":"US","email":"xxxxx","phoneNumber":"xxxxx"}}}
+[2023-12-20T05:28:16] [DEBUG] [PaymentsApi] : Return Type : \CyberSource\Model\PtsV2PaymentsPost201Response
+[2023-12-20T05:28:16] [INFO] [ApiClient] : CALLING API "/pts/v2/payments" STARTED
+[2023-12-20T05:28:16] [DEBUG] [ApiClient] : Request Headers :
+Accept:  application/hal+json;charset=utf-8
+Content-Type:  application/json
+v-c-merchant-id: cnb_dibestspot
+Signature: keyid="XXXXX", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="xvaOz1f4FHqjUKoVFInt1A0q5ascTYAxTEGKctfnvUc="
+Host: apitest.cybersource.com
+Date: Wed, 20 Dec 2023 5:28:16 GMT
+v-c-client-id: 
+Digest:  SHA-256=9MOuEFIMZlgaz5w+tX6jKQo2z6S2+qxq2LbkqrZ9f8s=
+[2023-12-20T05:28:16] [DEBUG] [ApiClient] : HTTP Request Body:
+{"clientReferenceInformation":{"code":"TC50171_3"},"processingInformation":{"capture":false},"paymentInformation":{"card":{"number":"xxxxx1111","expirationMonth":"xxxx","expirationYear":"xxxx"}},"orderInformation":{"amountDetails":{"totalAmount":"102.21","currency":"USD"},"billTo":{"firstName":"xxxxx","lastName":"xxxxx","address1":"1 Market St","locality":"san francisco","administrativeArea":"CA","postalCode":"94105","country":"US","email":"xxxxx","phoneNumber":"xxxxx"}}}
+[2023-12-20T05:28:17] [DEBUG] [ApiClient] : HTTP Response Body:
+{"response":{"rmsg":"Authentication Failed"}}
+[2023-12-20T05:28:17] [ERROR] [ApiClient] : ApiException : [401] Error connecting to the API (https://apitest.cybersource.com/pts/v2/payments)
+[2023-12-20T05:28:17] [ERROR] [PaymentsApi] : ApiException : CyberSource\ApiException: [401] Error connecting to the API (https://apitest.cybersource.com/pts/v2/payments) in D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ApiClient.php:463
+Stack trace:
+#0 D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\Api\PaymentsApi.php(171): CyberSource\ApiClient->callApi('/pts/v2/payment...', 'POST', Array, '{"clientReferen...', Array, '\\CyberSource\\Mo...', '/pts/v2/payment...')
+#1 D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\Api\PaymentsApi.php(109): CyberSource\Api\PaymentsApi->createPaymentWithHttpInfo(Object(CyberSource\Model\CreatePaymentRequest))
+#2 D:\MyXAMPP\htdocs\dibest-spot\application\controllers\Booking_checkout.php(268): CyberSource\Api\PaymentsApi->createPayment(Object(CyberSource\Model\CreatePaymentRequest))
+#3 D:\MyXAMPP\htdocs\dibest-spot\system\core\CodeIgniter.php(532): Booking_checkout->SimpleAuthorizationInternet()
+#4 D:\MyXAMPP\htdocs\dibest-spot\index.php(315): require_once('D:\\MyXAMPP\\htdo...')
+#5 {main}
+[2023-12-20T05:31:01] [INFO] [MerchantConfiguration] : APPLICATION LOGGING START:
+
+[2023-12-20T05:31:01] [INFO] [MerchantConfiguration] : CONFIGURATION INFORMATION :
+authenticationType  = HTTP_SIGNATURE
+enableLogging  = 1
+debugLogFile  = D:\MyXAMPP\htdocs\dibest-spot\application\controllers\..\Log\debugTest.log
+errorLogFile  = D:\MyXAMPP\htdocs\dibest-spot\application\controllers\..\Log\errorTest.log
+RunEnvironment  = apitest.cybersource.com
+[2023-12-20T05:31:01] [INFO] [MerchantConfiguration] : APPLICATION LOGGING START:
+
+[2023-12-20T05:31:01] [INFO] [MerchantConfiguration] : CONFIGURATION INFORMATION :
+authenticationType  = HTTP_SIGNATURE
+enableLogging  = 1
+debugLogFile  = D:\MyXAMPP\htdocs\dibest-spot\application\controllers\..\Log\debugTest.log
+errorLogFile  = D:\MyXAMPP\htdocs\dibest-spot\application\controllers\..\Log\errorTest.log
+RunEnvironment  = apitest.cybersource.com
+[2023-12-20T05:31:01] [INFO] [PaymentsApi] : CALL TO METHOD createPayment STARTED
+[2023-12-20T05:31:01] [DEBUG] [PaymentsApi] : Resource : POST /pts/v2/payments
+[2023-12-20T05:31:01] [DEBUG] [PaymentsApi] : Body Parameter :
+{"clientReferenceInformation":{"code":"TC50171_3"},"processingInformation":{"capture":false},"paymentInformation":{"card":{"number":"xxxxx1111","expirationMonth":"xxxx","expirationYear":"xxxx"}},"orderInformation":{"amountDetails":{"totalAmount":"102.21","currency":"USD"},"billTo":{"firstName":"xxxxx","lastName":"xxxxx","address1":"1 Market St","locality":"san francisco","administrativeArea":"CA","postalCode":"94105","country":"US","email":"xxxxx","phoneNumber":"xxxxx"}}}
+[2023-12-20T05:31:01] [DEBUG] [PaymentsApi] : Return Type : \CyberSource\Model\PtsV2PaymentsPost201Response
+[2023-12-20T05:31:01] [INFO] [ApiClient] : CALLING API "/pts/v2/payments" STARTED
+[2023-12-20T05:31:01] [DEBUG] [ApiClient] : Request Headers :
+Accept:  application/hal+json;charset=utf-8
+Content-Type:  application/json
+v-c-merchant-id: cnb_dibestspot
+Signature: keyid="XXXXX", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="xAy6ilYnzWZuLcKcLj5W3TTAgWu63zZ/pXHoNWPVBU0="
+Host: apitest.cybersource.com
+Date: Wed, 20 Dec 2023 5:31:01 GMT
+v-c-client-id: 
+Digest:  SHA-256=9MOuEFIMZlgaz5w+tX6jKQo2z6S2+qxq2LbkqrZ9f8s=
+[2023-12-20T05:31:01] [DEBUG] [ApiClient] : HTTP Request Body:
+{"clientReferenceInformation":{"code":"TC50171_3"},"processingInformation":{"capture":false},"paymentInformation":{"card":{"number":"xxxxx1111","expirationMonth":"xxxx","expirationYear":"xxxx"}},"orderInformation":{"amountDetails":{"totalAmount":"102.21","currency":"USD"},"billTo":{"firstName":"xxxxx","lastName":"xxxxx","address1":"1 Market St","locality":"san francisco","administrativeArea":"CA","postalCode":"94105","country":"US","email":"xxxxx","phoneNumber":"xxxxx"}}}
+[2023-12-20T05:31:03] [DEBUG] [ApiClient] : HTTP Response Body:
+{"response":{"rmsg":"Authentication Failed"}}
+[2023-12-20T05:31:03] [ERROR] [ApiClient] : ApiException : [401] Error connecting to the API (https://apitest.cybersource.com/pts/v2/payments)
+[2023-12-20T05:31:03] [ERROR] [PaymentsApi] : ApiException : CyberSource\ApiException: [401] Error connecting to the API (https://apitest.cybersource.com/pts/v2/payments) in D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ApiClient.php:463
+Stack trace:
+#0 D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\Api\PaymentsApi.php(171): CyberSource\ApiClient->callApi('/pts/v2/payment...', 'POST', Array, '{"clientReferen...', Array, '\\CyberSource\\Mo...', '/pts/v2/payment...')
+#1 D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\Api\PaymentsApi.php(109): CyberSource\Api\PaymentsApi->createPaymentWithHttpInfo(Object(CyberSource\Model\CreatePaymentRequest))
+#2 D:\MyXAMPP\htdocs\dibest-spot\application\controllers\Booking_checkout.php(268): CyberSource\Api\PaymentsApi->createPayment(Object(CyberSource\Model\CreatePaymentRequest))
+#3 D:\MyXAMPP\htdocs\dibest-spot\system\core\CodeIgniter.php(532): Booking_checkout->SimpleAuthorizationInternet()
+#4 D:\MyXAMPP\htdocs\dibest-spot\index.php(315): require_once('D:\\MyXAMPP\\htdo...')
+#5 {main}
+[2023-12-20T15:22:56] [INFO] [MerchantConfiguration] : APPLICATION LOGGING START:
+
+[2023-12-20T15:22:56] [INFO] [MerchantConfiguration] : CONFIGURATION INFORMATION :
+authenticationType  = HTTP_SIGNATURE
+enableLogging  = 1
+debugLogFile  = D:\MyXAMPP\htdocs\dibest-spot\application\controllers\..\Log\debugTest.log
+errorLogFile  = D:\MyXAMPP\htdocs\dibest-spot\application\controllers\..\Log\errorTest.log
+RunEnvironment  = apitest.cybersource.com
+[2023-12-20T15:22:56] [INFO] [MerchantConfiguration] : APPLICATION LOGGING START:
+
+[2023-12-20T15:22:56] [INFO] [MerchantConfiguration] : CONFIGURATION INFORMATION :
+authenticationType  = HTTP_SIGNATURE
+enableLogging  = 1
+debugLogFile  = D:\MyXAMPP\htdocs\dibest-spot\application\controllers\..\Log\debugTest.log
+errorLogFile  = D:\MyXAMPP\htdocs\dibest-spot\application\controllers\..\Log\errorTest.log
+RunEnvironment  = apitest.cybersource.com
+[2023-12-20T15:22:56] [INFO] [PaymentsApi] : CALL TO METHOD createPayment STARTED
+[2023-12-20T15:22:56] [DEBUG] [PaymentsApi] : Resource : POST /pts/v2/payments
+[2023-12-20T15:22:56] [DEBUG] [PaymentsApi] : Body Parameter :
+{"clientReferenceInformation":{"code":"TC50171_3"},"processingInformation":{"capture":false},"paymentInformation":{"card":{"number":"xxxxx1111","expirationMonth":"xxxx","expirationYear":"xxxx"}},"orderInformation":{"amountDetails":{"totalAmount":"102.21","currency":"USD"},"billTo":{"firstName":"xxxxx","lastName":"xxxxx","address1":"1 Market St","locality":"san francisco","administrativeArea":"CA","postalCode":"94105","country":"US","email":"xxxxx","phoneNumber":"xxxxx"}}}
+[2023-12-20T15:22:56] [DEBUG] [PaymentsApi] : Return Type : \CyberSource\Model\PtsV2PaymentsPost201Response
+[2023-12-20T15:22:56] [INFO] [ApiClient] : CALLING API "/pts/v2/payments" STARTED
+[2023-12-20T15:22:56] [DEBUG] [ApiClient] : Request Headers :
+Accept:  application/hal+json;charset=utf-8
+Content-Type:  application/json
+v-c-merchant-id: cnb_dibestspot
+Signature: keyid="XXXXX", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="7RDo0y+ydAUgyzuMRQjVc5OuCAw+6LS9Hg0MPoLB4SY="
+Host: apitest.cybersource.com
+Date: Wed, 20 Dec 2023 15:22:56 GMT
+v-c-client-id: 
+Digest:  SHA-256=9MOuEFIMZlgaz5w+tX6jKQo2z6S2+qxq2LbkqrZ9f8s=
+[2023-12-20T15:22:56] [DEBUG] [ApiClient] : HTTP Request Body:
+{"clientReferenceInformation":{"code":"TC50171_3"},"processingInformation":{"capture":false},"paymentInformation":{"card":{"number":"xxxxx1111","expirationMonth":"xxxx","expirationYear":"xxxx"}},"orderInformation":{"amountDetails":{"totalAmount":"102.21","currency":"USD"},"billTo":{"firstName":"xxxxx","lastName":"xxxxx","address1":"1 Market St","locality":"san francisco","administrativeArea":"CA","postalCode":"94105","country":"US","email":"xxxxx","phoneNumber":"xxxxx"}}}
+[2023-12-20T15:22:59] [DEBUG] [ApiClient] : HTTP Response Body:
+{"_links":{"authReversal":{"method":"POST","href":"\/pts\/v2\/payments\/7030821786386258003954\/reversals"},"self":{"method":"GET","href":"\/pts\/v2\/payments\/7030821786386258003954"},"capture":{"method":"POST","href":"\/pts\/v2\/payments\/7030821786386258003954\/captures"}},"clientReferenceInformation":{"code":"TC50171_3"},"consumerAuthenticationInformation":{"token":"xxxxx\/xxxxx\/xxxxx+xxxxx+xxxxx\/xxxxx\/xxxxx+xxxxx"},"id":"7030821786386258003954","orderInformation":{"amountDetails":{"authorizedAmount":"102.21","currency":"USD"}},"paymentAccountInformation":{"card":{"type":"xxxxx"}},"paymentInformation":{"tokenizedCard":{"type":"xxxxx"},"scheme":"VISA DEBIT","bin":"411111xxxxx","accountType":"Visa Classic","issuer":"CONOTOXIA SP. Z O.O","card":{"type":"xxxxx"},"binCountry":"PL"},"processorInformation":{"systemTraceAuditNumber":"164484","approvalCode":"831000","merchantAdvice":{"code":"01","codeRaw":"M001"},"responseDetails":"ABC","networkTransactionId":"016153570198200","retrievalReferenceNumber":"335414164484","consumerAuthenticationResponse":{"code":"2","codeRaw":"2"},"transactionId":"016153570198200","responseCode":"00","avs":{"code":"Y","codeRaw":"Y"}},"reconciliationId":"7030821786386258003954","riskInformation":{"localTime":"6:22:58","score":{"result":"45","factorCodes":["B","G"],"modelUsed":"default"},"infoCodes":{"address":["MM-BIN"],"suspicious":["INTL-BIN","RISK-GEO","RISK-TB"],"identityChange":["ID-M-NoHistory","ID-X-HNEG"]},"profile":{"earlyDecision":"ACCEPT","name":"Standard mid-market profile","selectorRule":"Default Active Profile"}},"status":"AUTHORIZED","submitTimeUtc":"2023-12-20T14:22:59Z"}
+[2023-12-20T15:22:59] [DEBUG] [PaymentsApi] : Response Headers :
+HTTP/1.1 201 Created
+Cache-Control = no-cache, no-store, must-revalidate
+Pragma = no-cache
+Expires = -1
+Strict-Transport-Security = max-age=31536000
+Content-Type = application/hal+json
+Content-Length = 1673
+x-response-time = 1275ms
+X-OPNET-Transaction-Trace = 04c5cbba-37a4-4605-98dd-92b21c511e3d
+Connection = keep-alive
+v-c-correlation-id = a167f0c5-2d07-410c-ab58-6ba03abf6763
+[2023-12-20T15:22:59] [INFO] [PaymentsApi] : CALL TO METHOD createPayment ENDED

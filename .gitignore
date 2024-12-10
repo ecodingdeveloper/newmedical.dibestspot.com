@@ -1,0 +1,9 @@
+/vendor
+**/*.sw?
+/application/config/database.php
+.htaccess
+/applications/*.zip
+*.zip
+/uploads
+*.jpg
+1-doctors,2-patients,7-team_member.txt

@@ -1,0 +1,576 @@
+*   Trying 66.185.182.49:443...
+* Connected to apitest.cybersource.com (66.185.182.49) port 443 (#0)
+* ALPN: offers h2
+* ALPN: offers http/1.1
+*  CAfile: D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ssl/cacert.pem
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN: server did not agree on a protocol. Uses default.
+* Server certificate:
+*  subject: C=US; ST=California; L=Foster City; jurisdictionC=US; jurisdictionST=Delaware; O=Cybersource Corporation; businessCategory=Private Organization; serialNumber=2838921; CN=apitest.cybersource.com
+*  start date: Jan 17 15:57:47 2023 GMT
+*  expire date: Feb 15 15:57:47 2024 GMT
+*  subjectAltName: host "apitest.cybersource.com" matched cert's "apitest.cybersource.com"
+*  issuer: C=US; O=Entrust, Inc.; OU=See www.entrust.net/legal-terms; OU=(c) 2014 Entrust, Inc. - for authorized use only; CN=Entrust Certification Authority - L1M
+*  SSL certificate verify ok.
+> POST /pts/v2/payments HTTP/1.1
+Host: apitest.cybersource.com
+User-Agent: Swagger-Codegen/1.0.0/php
+Accept:  application/hal+json;charset=utf-8
+Content-Type:  application/json
+v-c-merchant-id: testrest
+Signature: keyid="08c94330-f618-42a3-b09d-e1e43be5efda", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="CL5o+cFmHIgJyMO6QZiaTFL2vRJ1PlTuu/9whk0sJ6I="
+Date: Tue, 19 Dec 2023 14:49:59 GMT
+Digest:  SHA-256=9MOuEFIMZlgaz5w+tX6jKQo2z6S2+qxq2LbkqrZ9f8s=
+Content-Length: 491
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 201 Created
+< Cache-Control: no-cache, no-store, must-revalidate
+< Pragma: no-cache
+< Expires: -1
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: application/hal+json
+< Content-Length: 882
+< x-response-time: 229ms
+< X-OPNET-Transaction-Trace: 333f3880-2cbc-43be-ac37-70508f65eab6
+< Connection: keep-alive
+< v-c-correlation-id: b490dfef-5fe8-40ac-8ad1-c2f29f419dde
+< 
+* Connection #0 to host apitest.cybersource.com left intact
+*   Trying 66.185.182.49:443...
+* Connected to apitest.cybersource.com (66.185.182.49) port 443 (#0)
+* ALPN: offers h2
+* ALPN: offers http/1.1
+*  CAfile: D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ssl/cacert.pem
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN: server did not agree on a protocol. Uses default.
+* Server certificate:
+*  subject: C=US; ST=California; L=Foster City; jurisdictionC=US; jurisdictionST=Delaware; O=Cybersource Corporation; businessCategory=Private Organization; serialNumber=2838921; CN=apitest.cybersource.com
+*  start date: Jan 17 15:57:47 2023 GMT
+*  expire date: Feb 15 15:57:47 2024 GMT
+*  subjectAltName: host "apitest.cybersource.com" matched cert's "apitest.cybersource.com"
+*  issuer: C=US; O=Entrust, Inc.; OU=See www.entrust.net/legal-terms; OU=(c) 2014 Entrust, Inc. - for authorized use only; CN=Entrust Certification Authority - L1M
+*  SSL certificate verify ok.
+> POST /pts/v2/payments HTTP/1.1
+Host: apitest.cybersource.com
+User-Agent: Swagger-Codegen/1.0.0/php
+Accept:  application/hal+json;charset=utf-8
+Content-Type:  application/json
+v-c-merchant-id: testrest
+Signature: keyid="08c94330-f618-42a3-b09d-e1e43be5efda", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="Rv1OYVnXlu4UjWwoG33NNbtZT0gxshv0v2UUGdo5Fx4="
+Date: Tue, 19 Dec 2023 14:50:46 GMT
+Digest:  SHA-256=9MOuEFIMZlgaz5w+tX6jKQo2z6S2+qxq2LbkqrZ9f8s=
+Content-Length: 491
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 201 Created
+< Cache-Control: no-cache, no-store, must-revalidate
+< Pragma: no-cache
+< Expires: -1
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: application/hal+json
+< Content-Length: 882
+< x-response-time: 230ms
+< X-OPNET-Transaction-Trace: ceab8cd1-76ef-4dc9-8d93-64f2f058aa90
+< Connection: keep-alive
+< v-c-correlation-id: b4548927-b262-4756-a51e-f95248228209
+< 
+* Connection #0 to host apitest.cybersource.com left intact
+*   Trying 66.185.182.49:443...
+* Connected to apitest.cybersource.com (66.185.182.49) port 443 (#0)
+* ALPN: offers h2
+* ALPN: offers http/1.1
+*  CAfile: D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ssl/cacert.pem
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN: server did not agree on a protocol. Uses default.
+* Server certificate:
+*  subject: C=US; ST=California; L=Foster City; jurisdictionC=US; jurisdictionST=Delaware; O=Cybersource Corporation; businessCategory=Private Organization; serialNumber=2838921; CN=apitest.cybersource.com
+*  start date: Jan 17 15:57:47 2023 GMT
+*  expire date: Feb 15 15:57:47 2024 GMT
+*  subjectAltName: host "apitest.cybersource.com" matched cert's "apitest.cybersource.com"
+*  issuer: C=US; O=Entrust, Inc.; OU=See www.entrust.net/legal-terms; OU=(c) 2014 Entrust, Inc. - for authorized use only; CN=Entrust Certification Authority - L1M
+*  SSL certificate verify ok.
+> POST /pts/v2/payments HTTP/1.1
+Host: apitest.cybersource.com
+User-Agent: Swagger-Codegen/1.0.0/php
+Accept:  application/hal+json;charset=utf-8
+Content-Type:  application/json
+v-c-merchant-id: testrest
+Signature: keyid="08c94330-f618-42a3-b09d-e1e43be5efda", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="S9IM1SCiqvlZqWdb8qsI0oFsm2Sfnhr4zbfHK7Whmrg="
+Date: Tue, 19 Dec 2023 15:07:07 GMT
+Digest:  SHA-256=9MOuEFIMZlgaz5w+tX6jKQo2z6S2+qxq2LbkqrZ9f8s=
+Content-Length: 491
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 201 Created
+< Cache-Control: no-cache, no-store, must-revalidate
+< Pragma: no-cache
+< Expires: -1
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: application/hal+json
+< Content-Length: 882
+< x-response-time: 246ms
+< X-OPNET-Transaction-Trace: 82c53f2c-4315-4367-a3c8-6807d3d53799
+< Connection: keep-alive
+< v-c-correlation-id: 17b0ba1e-7867-47da-99ee-cdbb1388d94a
+< 
+* Connection #0 to host apitest.cybersource.com left intact
+*   Trying 66.185.182.49:443...
+* Connected to apitest.cybersource.com (66.185.182.49) port 443 (#0)
+* ALPN: offers h2
+* ALPN: offers http/1.1
+*  CAfile: D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ssl/cacert.pem
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN: server did not agree on a protocol. Uses default.
+* Server certificate:
+*  subject: C=US; ST=California; L=Foster City; jurisdictionC=US; jurisdictionST=Delaware; O=Cybersource Corporation; businessCategory=Private Organization; serialNumber=2838921; CN=apitest.cybersource.com
+*  start date: Jan 17 15:57:47 2023 GMT
+*  expire date: Feb 15 15:57:47 2024 GMT
+*  subjectAltName: host "apitest.cybersource.com" matched cert's "apitest.cybersource.com"
+*  issuer: C=US; O=Entrust, Inc.; OU=See www.entrust.net/legal-terms; OU=(c) 2014 Entrust, Inc. - for authorized use only; CN=Entrust Certification Authority - L1M
+*  SSL certificate verify ok.
+> POST /pts/v2/payments HTTP/1.1
+Host: apitest.cybersource.com
+User-Agent: Swagger-Codegen/1.0.0/php
+Accept:  application/hal+json;charset=utf-8
+Content-Type:  application/json
+v-c-merchant-id: testrest
+Signature: keyid="08c94330-f618-42a3-b09d-e1e43be5efda", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="stKurI4wmd7EfiDB4d2GWrpTRfnYNOUkdPicpSQNFes="
+Date: Tue, 19 Dec 2023 15:08:14 GMT
+Digest:  SHA-256=9MOuEFIMZlgaz5w+tX6jKQo2z6S2+qxq2LbkqrZ9f8s=
+Content-Length: 491
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 201 Created
+< Cache-Control: no-cache, no-store, must-revalidate
+< Pragma: no-cache
+< Expires: -1
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: application/hal+json
+< Content-Length: 882
+< x-response-time: 288ms
+< X-OPNET-Transaction-Trace: 98e6cb83-61b1-48ac-a654-df9b5ce8289c
+< Connection: keep-alive
+< v-c-correlation-id: 124afba4-6fc5-4ee5-842b-0fc4b62e9903
+< 
+* Connection #0 to host apitest.cybersource.com left intact
+*   Trying 66.185.182.49:443...
+* Connected to apitest.cybersource.com (66.185.182.49) port 443 (#0)
+* ALPN: offers h2
+* ALPN: offers http/1.1
+*  CAfile: D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ssl/cacert.pem
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN: server did not agree on a protocol. Uses default.
+* Server certificate:
+*  subject: C=US; ST=California; L=Foster City; jurisdictionC=US; jurisdictionST=Delaware; O=Cybersource Corporation; businessCategory=Private Organization; serialNumber=2838921; CN=apitest.cybersource.com
+*  start date: Jan 17 15:57:47 2023 GMT
+*  expire date: Feb 15 15:57:47 2024 GMT
+*  subjectAltName: host "apitest.cybersource.com" matched cert's "apitest.cybersource.com"
+*  issuer: C=US; O=Entrust, Inc.; OU=See www.entrust.net/legal-terms; OU=(c) 2014 Entrust, Inc. - for authorized use only; CN=Entrust Certification Authority - L1M
+*  SSL certificate verify ok.
+> POST /pts/v2/payments HTTP/1.1
+Host: apitest.cybersource.com
+User-Agent: Swagger-Codegen/1.0.0/php
+Accept:  application/hal+json;charset=utf-8
+Content-Type:  application/json
+v-c-merchant-id: testrest
+Signature: keyid="08c94330-f618-42a3-b09d-e1e43be5efda", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="RGxjrwC4K98wQO3r5u2bpXNcVMqQcDt52dsLefJGAdM="
+Date: Tue, 19 Dec 2023 15:09:25 GMT
+Digest:  SHA-256=9MOuEFIMZlgaz5w+tX6jKQo2z6S2+qxq2LbkqrZ9f8s=
+Content-Length: 491
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 201 Created
+< Cache-Control: no-cache, no-store, must-revalidate
+< Pragma: no-cache
+< Expires: -1
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: application/hal+json
+< Content-Length: 882
+< x-response-time: 270ms
+< X-OPNET-Transaction-Trace: 3d58a142-e538-4385-9981-2280fca20744
+< Connection: keep-alive
+< v-c-correlation-id: d9c2af7c-de3c-4632-8cc8-d9a014bfbfc8
+< 
+* Connection #0 to host apitest.cybersource.com left intact
+*   Trying 66.185.182.49:443...
+* Connected to apitest.cybersource.com (66.185.182.49) port 443 (#0)
+* ALPN: offers h2
+* ALPN: offers http/1.1
+*  CAfile: D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ssl/cacert.pem
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN: server did not agree on a protocol. Uses default.
+* Server certificate:
+*  subject: C=US; ST=California; L=Foster City; jurisdictionC=US; jurisdictionST=Delaware; O=Cybersource Corporation; businessCategory=Private Organization; serialNumber=2838921; CN=apitest.cybersource.com
+*  start date: Jan 17 15:57:47 2023 GMT
+*  expire date: Feb 15 15:57:47 2024 GMT
+*  subjectAltName: host "apitest.cybersource.com" matched cert's "apitest.cybersource.com"
+*  issuer: C=US; O=Entrust, Inc.; OU=See www.entrust.net/legal-terms; OU=(c) 2014 Entrust, Inc. - for authorized use only; CN=Entrust Certification Authority - L1M
+*  SSL certificate verify ok.
+> POST /pts/v2/payments HTTP/1.1
+Host: apitest.cybersource.com
+User-Agent: Swagger-Codegen/1.0.0/php
+Accept:  application/hal+json;charset=utf-8
+Content-Type:  application/json
+v-c-merchant-id: testrest
+Signature: keyid="08c94330-f618-42a3-b09d-e1e43be5efda", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="+SuMrigi2Wqig3hy+gsQcbkUxL7bN4N0elxy8PZPNwE="
+Date: Tue, 19 Dec 2023 15:13:23 GMT
+Digest:  SHA-256=9MOuEFIMZlgaz5w+tX6jKQo2z6S2+qxq2LbkqrZ9f8s=
+Content-Length: 491
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 201 Created
+< Cache-Control: no-cache, no-store, must-revalidate
+< Pragma: no-cache
+< Expires: -1
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: application/hal+json
+< Content-Length: 882
+< x-response-time: 264ms
+< X-OPNET-Transaction-Trace: 03c1c763-52c2-4ff3-957f-fe7e544a61df
+< Connection: keep-alive
+< v-c-correlation-id: 715d3632-8ada-43ea-b871-9dd0b43f55e3
+< 
+* Connection #0 to host apitest.cybersource.com left intact
+*   Trying 66.185.182.49:443...
+* Connected to apitest.cybersource.com (66.185.182.49) port 443 (#0)
+* ALPN: offers h2
+* ALPN: offers http/1.1
+*  CAfile: D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ssl/cacert.pem
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN: server did not agree on a protocol. Uses default.
+* Server certificate:
+*  subject: C=US; ST=California; L=Foster City; jurisdictionC=US; jurisdictionST=Delaware; O=Cybersource Corporation; businessCategory=Private Organization; serialNumber=2838921; CN=apitest.cybersource.com
+*  start date: Jan 17 15:57:47 2023 GMT
+*  expire date: Feb 15 15:57:47 2024 GMT
+*  subjectAltName: host "apitest.cybersource.com" matched cert's "apitest.cybersource.com"
+*  issuer: C=US; O=Entrust, Inc.; OU=See www.entrust.net/legal-terms; OU=(c) 2014 Entrust, Inc. - for authorized use only; CN=Entrust Certification Authority - L1M
+*  SSL certificate verify ok.
+> POST /pts/v2/payments HTTP/1.1
+Host: apitest.cybersource.com
+User-Agent: Swagger-Codegen/1.0.0/php
+Accept:  application/hal+json;charset=utf-8
+Content-Type:  application/json
+v-c-merchant-id: testrest
+Signature: keyid="08c94330-f618-42a3-b09d-e1e43be5efda", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="IArNTo3UyH7Xubj4ALoD1pYjxe2PvStxKV1EzekQWBY="
+Date: Tue, 19 Dec 2023 15:21:54 GMT
+Digest:  SHA-256=bTqazVKTIAfC25ekTlR+nneJxmBoN3sxe1b//99DmoQ=
+Content-Length: 491
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 201 Created
+< Cache-Control: no-cache, no-store, must-revalidate
+< Pragma: no-cache
+< Expires: -1
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: application/hal+json
+< Content-Length: 882
+< x-response-time: 265ms
+< X-OPNET-Transaction-Trace: 00f2bc31-2007-48bd-9251-45c262bcdcd5
+< Connection: keep-alive
+< v-c-correlation-id: 7d6d99a6-183f-47a4-9b97-0019f5fcab83
+< 
+* Connection #0 to host apitest.cybersource.com left intact
+*   Trying 66.185.182.49:443...
+* Connected to apitest.cybersource.com (66.185.182.49) port 443 (#0)
+* ALPN: offers h2
+* ALPN: offers http/1.1
+*  CAfile: D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ssl/cacert.pem
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN: server did not agree on a protocol. Uses default.
+* Server certificate:
+*  subject: C=US; ST=California; L=Foster City; jurisdictionC=US; jurisdictionST=Delaware; O=Cybersource Corporation; businessCategory=Private Organization; serialNumber=2838921; CN=apitest.cybersource.com
+*  start date: Jan 17 15:57:47 2023 GMT
+*  expire date: Feb 15 15:57:47 2024 GMT
+*  subjectAltName: host "apitest.cybersource.com" matched cert's "apitest.cybersource.com"
+*  issuer: C=US; O=Entrust, Inc.; OU=See www.entrust.net/legal-terms; OU=(c) 2014 Entrust, Inc. - for authorized use only; CN=Entrust Certification Authority - L1M
+*  SSL certificate verify ok.
+> POST /pts/v2/payments HTTP/1.1
+Host: apitest.cybersource.com
+User-Agent: Swagger-Codegen/1.0.0/php
+Accept:  application/hal+json;charset=utf-8
+Content-Type:  application/json
+v-c-merchant-id: testrest
+Signature: keyid="08c94330-f618-42a3-b09d-e1e43be5efda", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="wzfdiW2kY7MbBGARx5aCBIO7AGzsiFW6hm7A5o3kVy4="
+Date: Tue, 19 Dec 2023 15:25:34 GMT
+Digest:  SHA-256=bTqazVKTIAfC25ekTlR+nneJxmBoN3sxe1b//99DmoQ=
+Content-Length: 491
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 201 Created
+< Cache-Control: no-cache, no-store, must-revalidate
+< Pragma: no-cache
+< Expires: -1
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: application/hal+json
+< Content-Length: 882
+< x-response-time: 296ms
+< X-OPNET-Transaction-Trace: b4a4f945-840d-4d2e-b83b-b15c7dd9ea2c
+< Connection: keep-alive
+< v-c-correlation-id: 7c8dbaee-5f92-4d82-9090-54e89ac1645e
+< 
+* Connection #0 to host apitest.cybersource.com left intact
+*   Trying 66.185.182.49:443...
+* Connected to apitest.cybersource.com (66.185.182.49) port 443 (#0)
+* ALPN: offers h2
+* ALPN: offers http/1.1
+*  CAfile: D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ssl/cacert.pem
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN: server did not agree on a protocol. Uses default.
+* Server certificate:
+*  subject: C=US; ST=California; L=Foster City; jurisdictionC=US; jurisdictionST=Delaware; O=Cybersource Corporation; businessCategory=Private Organization; serialNumber=2838921; CN=apitest.cybersource.com
+*  start date: Jan 17 15:57:47 2023 GMT
+*  expire date: Feb 15 15:57:47 2024 GMT
+*  subjectAltName: host "apitest.cybersource.com" matched cert's "apitest.cybersource.com"
+*  issuer: C=US; O=Entrust, Inc.; OU=See www.entrust.net/legal-terms; OU=(c) 2014 Entrust, Inc. - for authorized use only; CN=Entrust Certification Authority - L1M
+*  SSL certificate verify ok.
+> POST /pts/v2/payments HTTP/1.1
+Host: apitest.cybersource.com
+User-Agent: Swagger-Codegen/1.0.0/php
+Accept:  application/hal+json;charset=utf-8
+Content-Type:  application/json
+v-c-merchant-id: cnb_dibestspot
+Signature: keyid="21b441b5-1bf1-4439-86e3-a8bdaea2c1b7", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="oumHJ94y77v1Q7ijLCP14e8ZV9QtyM54j9WWmByxJQI="
+Date: Tue, 19 Dec 2023 15:27:10 GMT
+Digest:  SHA-256=bTqazVKTIAfC25ekTlR+nneJxmBoN3sxe1b//99DmoQ=
+Content-Length: 491
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 401 Unauthorized
+< Strict-Transport-Security: max-age=31536000
+< v-c-correlation-id: c5e178de-489f-43b5-ba8a-574860ebafd5
+< X-RequestID: 7029960319366970803954
+< content-type: application/json
+< v-c-response-time: 1702996031
+< content-length: 45
+< 
+* Connection #0 to host apitest.cybersource.com left intact
+*   Trying 66.185.182.49:443...
+* Connected to apitest.cybersource.com (66.185.182.49) port 443 (#0)
+* ALPN: offers h2
+* ALPN: offers http/1.1
+*  CAfile: D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ssl/cacert.pem
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN: server did not agree on a protocol. Uses default.
+* Server certificate:
+*  subject: C=US; ST=California; L=Foster City; jurisdictionC=US; jurisdictionST=Delaware; O=Cybersource Corporation; businessCategory=Private Organization; serialNumber=2838921; CN=apitest.cybersource.com
+*  start date: Jan 17 15:57:47 2023 GMT
+*  expire date: Feb 15 15:57:47 2024 GMT
+*  subjectAltName: host "apitest.cybersource.com" matched cert's "apitest.cybersource.com"
+*  issuer: C=US; O=Entrust, Inc.; OU=See www.entrust.net/legal-terms; OU=(c) 2014 Entrust, Inc. - for authorized use only; CN=Entrust Certification Authority - L1M
+*  SSL certificate verify ok.
+> POST /pts/v2/payments HTTP/1.1
+Host: apitest.cybersource.com
+User-Agent: Swagger-Codegen/1.0.0/php
+Accept:  application/hal+json;charset=utf-8
+Content-Type:  application/json
+v-c-merchant-id: cnb_dibestspot
+Signature: keyid="21b441b5-1bf1-4439-86e3-a8bdaea2c1b7", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="w4lcB/HBJXCmOrWlV1bGNEAbmlwWygsdG4W7wHHhRxs="
+Date: Tue, 19 Dec 2023 15:27:28 GMT
+Digest:  SHA-256=bTqazVKTIAfC25ekTlR+nneJxmBoN3sxe1b//99DmoQ=
+Content-Length: 491
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 401 Unauthorized
+< Strict-Transport-Security: max-age=31536000
+< v-c-correlation-id: fb9f13aa-4c6b-474a-bd2f-7dab029c9490
+< X-RequestID: 7029960498966972203954
+< content-type: application/json
+< v-c-response-time: 1702996049
+< content-length: 45
+< 
+* Connection #0 to host apitest.cybersource.com left intact
+*   Trying 66.185.182.49:443...
+* Connected to apitest.cybersource.com (66.185.182.49) port 443 (#0)
+* ALPN: offers h2
+* ALPN: offers http/1.1
+*  CAfile: D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ssl/cacert.pem
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN: server did not agree on a protocol. Uses default.
+* Server certificate:
+*  subject: C=US; ST=California; L=Foster City; jurisdictionC=US; jurisdictionST=Delaware; O=Cybersource Corporation; businessCategory=Private Organization; serialNumber=2838921; CN=apitest.cybersource.com
+*  start date: Jan 17 15:57:47 2023 GMT
+*  expire date: Feb 15 15:57:47 2024 GMT
+*  subjectAltName: host "apitest.cybersource.com" matched cert's "apitest.cybersource.com"
+*  issuer: C=US; O=Entrust, Inc.; OU=See www.entrust.net/legal-terms; OU=(c) 2014 Entrust, Inc. - for authorized use only; CN=Entrust Certification Authority - L1M
+*  SSL certificate verify ok.
+> POST /pts/v2/payments HTTP/1.1
+Host: apitest.cybersource.com
+User-Agent: Swagger-Codegen/1.0.0/php
+Accept:  application/hal+json;charset=utf-8
+Content-Type:  application/json
+v-c-merchant-id: cnb_dibestspot
+Signature: keyid="21b441b5-1bf1-4439-86e3-a8bdaea2c1b7", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="1BDLjT8FooaSJN0DCQcyRpfnUxUpSo5untkLh/Pfl5M="
+Date: Tue, 19 Dec 2023 15:55:50 GMT
+Digest:  SHA-256=9MOuEFIMZlgaz5w+tX6jKQo2z6S2+qxq2LbkqrZ9f8s=
+Content-Length: 491
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 401 Unauthorized
+< Strict-Transport-Security: max-age=31536000
+< v-c-correlation-id: 7f576eed-7952-4b35-aab7-271f1291af6d
+< X-RequestID: 7029977522016852103955
+< content-type: application/json
+< v-c-response-time: 1702997752
+< content-length: 45
+< 
+* Connection #0 to host apitest.cybersource.com left intact
+*   Trying 66.185.182.49:443...
+* Connected to apitest.cybersource.com (66.185.182.49) port 443 (#0)
+* ALPN: offers h2
+* ALPN: offers http/1.1
+*  CAfile: D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ssl/cacert.pem
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN: server did not agree on a protocol. Uses default.
+* Server certificate:
+*  subject: C=US; ST=California; L=Foster City; jurisdictionC=US; jurisdictionST=Delaware; O=Cybersource Corporation; businessCategory=Private Organization; serialNumber=2838921; CN=apitest.cybersource.com
+*  start date: Jan 17 15:57:47 2023 GMT
+*  expire date: Feb 15 15:57:47 2024 GMT
+*  subjectAltName: host "apitest.cybersource.com" matched cert's "apitest.cybersource.com"
+*  issuer: C=US; O=Entrust, Inc.; OU=See www.entrust.net/legal-terms; OU=(c) 2014 Entrust, Inc. - for authorized use only; CN=Entrust Certification Authority - L1M
+*  SSL certificate verify ok.
+> POST /pts/v2/payments HTTP/1.1
+Host: apitest.cybersource.com
+User-Agent: Swagger-Codegen/1.0.0/php
+Accept:  application/hal+json;charset=utf-8
+Content-Type:  application/json
+v-c-merchant-id: cnb_dibestspot
+Signature: keyid="21b441b5-1bf1-4439-86e3-a8bdaea2c1b7", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="iU9xMuX6Xn5yn0x2j1z12NYOlNDC63Wz7RIxhiNqS0o="
+Date: Tue, 19 Dec 2023 15:57:36 GMT
+Digest:  SHA-256=9MOuEFIMZlgaz5w+tX6jKQo2z6S2+qxq2LbkqrZ9f8s=
+Content-Length: 491
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 401 Unauthorized
+< Strict-Transport-Security: max-age=31536000
+< v-c-correlation-id: 65f98900-a341-474e-b050-7bc6fa2b7fca
+< X-RequestID: 7029978585036179603954
+< content-type: application/json
+< v-c-response-time: 1702997858
+< content-length: 45
+< 
+* Connection #0 to host apitest.cybersource.com left intact
+*   Trying 66.185.182.49:443...
+* Connected to apitest.cybersource.com (66.185.182.49) port 443 (#0)
+* ALPN: offers h2
+* ALPN: offers http/1.1
+*  CAfile: D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ssl/cacert.pem
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN: server did not agree on a protocol. Uses default.
+* Server certificate:
+*  subject: C=US; ST=California; L=Foster City; jurisdictionC=US; jurisdictionST=Delaware; O=Cybersource Corporation; businessCategory=Private Organization; serialNumber=2838921; CN=apitest.cybersource.com
+*  start date: Jan 17 15:57:47 2023 GMT
+*  expire date: Feb 15 15:57:47 2024 GMT
+*  subjectAltName: host "apitest.cybersource.com" matched cert's "apitest.cybersource.com"
+*  issuer: C=US; O=Entrust, Inc.; OU=See www.entrust.net/legal-terms; OU=(c) 2014 Entrust, Inc. - for authorized use only; CN=Entrust Certification Authority - L1M
+*  SSL certificate verify ok.
+> POST /pts/v2/payments HTTP/1.1
+Host: apitest.cybersource.com
+User-Agent: Swagger-Codegen/1.0.0/php
+Accept:  application/hal+json;charset=utf-8
+Content-Type:  application/json
+v-c-merchant-id: cnb_dibestspot
+Signature: keyid="21b441b5-1bf1-4439-86e3-a8bdaea2c1b7", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="xvaOz1f4FHqjUKoVFInt1A0q5ascTYAxTEGKctfnvUc="
+Date: Wed, 20 Dec 2023 5:28:16 GMT
+Digest:  SHA-256=9MOuEFIMZlgaz5w+tX6jKQo2z6S2+qxq2LbkqrZ9f8s=
+Content-Length: 491
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 401 Unauthorized
+< Strict-Transport-Security: max-age=31536000
+< v-c-correlation-id: 32052141-7e83-4a46-b639-cbc8fa25d80e
+< X-RequestID: 7030464984706694503954
+< content-type: application/json
+< v-c-response-time: 1703046498
+< content-length: 45
+< 
+* Connection #0 to host apitest.cybersource.com left intact
+*   Trying 66.185.182.49:443...
+* Connected to apitest.cybersource.com (66.185.182.49) port 443 (#0)
+* ALPN: offers h2
+* ALPN: offers http/1.1
+*  CAfile: D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ssl/cacert.pem
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN: server did not agree on a protocol. Uses default.
+* Server certificate:
+*  subject: C=US; ST=California; L=Foster City; jurisdictionC=US; jurisdictionST=Delaware; O=Cybersource Corporation; businessCategory=Private Organization; serialNumber=2838921; CN=apitest.cybersource.com
+*  start date: Jan 17 15:57:47 2023 GMT
+*  expire date: Feb 15 15:57:47 2024 GMT
+*  subjectAltName: host "apitest.cybersource.com" matched cert's "apitest.cybersource.com"
+*  issuer: C=US; O=Entrust, Inc.; OU=See www.entrust.net/legal-terms; OU=(c) 2014 Entrust, Inc. - for authorized use only; CN=Entrust Certification Authority - L1M
+*  SSL certificate verify ok.
+> POST /pts/v2/payments HTTP/1.1
+Host: apitest.cybersource.com
+User-Agent: Swagger-Codegen/1.0.0/php
+Accept:  application/hal+json;charset=utf-8
+Content-Type:  application/json
+v-c-merchant-id: cnb_dibestspot
+Signature: keyid="21b441b5-1bf1-4439-86e3-a8bdaea2c1b7", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="xAy6ilYnzWZuLcKcLj5W3TTAgWu63zZ/pXHoNWPVBU0="
+Date: Wed, 20 Dec 2023 5:31:01 GMT
+Digest:  SHA-256=9MOuEFIMZlgaz5w+tX6jKQo2z6S2+qxq2LbkqrZ9f8s=
+Content-Length: 491
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 401 Unauthorized
+< Strict-Transport-Security: max-age=31536000
+< v-c-correlation-id: 7a51cbf3-2b93-41ac-aaee-bb490c651171
+< X-RequestID: 7030466640936415803955
+< content-type: application/json
+< v-c-response-time: 1703046664
+< content-length: 45
+< 
+* Connection #0 to host apitest.cybersource.com left intact
+*   Trying 66.185.182.49:443...
+* Connected to apitest.cybersource.com (66.185.182.49) port 443 (#0)
+* ALPN: offers h2
+* ALPN: offers http/1.1
+*  CAfile: D:\MyXAMPP\htdocs\dibest-spot\vendor\cybersource\rest-client-php\lib\ssl/cacert.pem
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN: server did not agree on a protocol. Uses default.
+* Server certificate:
+*  subject: C=US; ST=California; L=Foster City; jurisdictionC=US; jurisdictionST=Delaware; O=Cybersource Corporation; businessCategory=Private Organization; serialNumber=2838921; CN=apitest.cybersource.com
+*  start date: Jan 17 15:57:47 2023 GMT
+*  expire date: Feb 15 15:57:47 2024 GMT
+*  subjectAltName: host "apitest.cybersource.com" matched cert's "apitest.cybersource.com"
+*  issuer: C=US; O=Entrust, Inc.; OU=See www.entrust.net/legal-terms; OU=(c) 2014 Entrust, Inc. - for authorized use only; CN=Entrust Certification Authority - L1M
+*  SSL certificate verify ok.
+> POST /pts/v2/payments HTTP/1.1
+Host: apitest.cybersource.com
+User-Agent: Swagger-Codegen/1.0.0/php
+Accept:  application/hal+json;charset=utf-8
+Content-Type:  application/json
+v-c-merchant-id: cnb_dibestspot
+Signature: keyid="0c1f9a74-e5b5-4dda-8382-35b9a0dee570", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="7RDo0y+ydAUgyzuMRQjVc5OuCAw+6LS9Hg0MPoLB4SY="
+Date: Wed, 20 Dec 2023 15:22:56 GMT
+Digest:  SHA-256=9MOuEFIMZlgaz5w+tX6jKQo2z6S2+qxq2LbkqrZ9f8s=
+Content-Length: 491
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 201 Created
+< Cache-Control: no-cache, no-store, must-revalidate
+< Pragma: no-cache
+< Expires: -1
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: application/hal+json
+< Content-Length: 1673
+< x-response-time: 1275ms
+< X-OPNET-Transaction-Trace: 04c5cbba-37a4-4605-98dd-92b21c511e3d
+< Connection: keep-alive
+< v-c-correlation-id: a167f0c5-2d07-410c-ab58-6ba03abf6763
+< 
+* Connection #0 to host apitest.cybersource.com left intact

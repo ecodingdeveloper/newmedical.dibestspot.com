@@ -1,0 +1,10 @@
+includes:
+    - phpstan.neon.dist
+
+parameters:
+    ignoreErrors:
+        - '#Variable \$this might not be defined\.#'
+        - '#Access to an undefined property object::\$load\.#'
+        - '#If condition is always true#'
+    parallel:
+        maximumNumberOfProcesses: 1

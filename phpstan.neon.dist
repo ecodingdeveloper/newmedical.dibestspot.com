@@ -1,0 +1,37 @@
+parameters:
+    tmpDir: build/phpstan
+    level: 5
+    paths:
+        - src
+        - tests
+    bootstrapFiles:
+        - vendor/phpstan/phpstan/bootstrap.php
+
+    excludePaths:
+        - src/Config/Routes.php
+        - src/Views/*
+    ignoreErrors:
+        - '#Cannot access property [\$a-z_]+ on (array|object)#'
+    universalObjectCratesClasses:
+        - CodeIgniter/Entity
+        - CodeIgniter/Entity/Entity
+        - Faker\Generator
+    scanDirectories:
+        - system/Helpers
+        - application/Helpers
+        - system/core
+        - system/libraries
+        - application/libraries
+        - assets/js
+        - assets/plugins
+    scanFiles:
+      - index.php
+      - system/libraries/Encryption.php
+      - application/config/autoload.php
+      - application/libraries/REST_Controller.php
+      - vendor/razorpay/razorpay/src/Api.php
+
+    dynamicConstantNames:
+        - APP_NAMESPACE
+        - CI_DEBUG
+        - ENVIRONMENT
